@@ -1,0 +1,246 @@
+<template>
+    <section id="bottom">
+        <div class="offset-wrapper">
+            <h1>About</h1>
+            <div class="articles">
+                <article>
+                    We offer both promotion services and a set of services from developing a project to a ready-to-use business model, including support and advertizing. Our team is not large but is powerful and capable of developing unique projects that are sure to become a success. It includes frontend developers who have a perfect design experience.
+                </article>
+                <article>
+                    We are ready for new challenges and chances to improve ourselves. Our only goal is to meet the customer’s needs and requirements. We know what to offer everyone who asks us for help.  Each customer is sure to get a top quality service based on individual approach, flexibility, and reliability.
+                </article>
+            </div>
+        </div>
+
+        <div class="offset-wrapper">
+            <Slider :slides="slides[0]" :nav-direction-type="'vertical-nav'"></Slider>
+        </div>
+
+        <Portfolio></Portfolio>
+
+        <div class="offset-wrapper">
+            <div class="articles">
+                <article>
+                    Our company uses the latest design and services, as well as the most efficient online marketing tools and SEO (search engine optimization). We know how to create the correct image of any project and organize its marketing to meet the needs of the company.
+                </article>
+                <article>
+                    Our online tools are efficient and aim at improving the operation of the company’s applications and looking for new unique solutions. They include email marketing, networking strategies, visual computer graphics, and photography optimization.
+                </article>
+            </div>
+        </div>
+
+        <div class="offset-wrapper">
+            <h1>Advantages</h1>
+            <div class="advantages">
+                <article>
+                    <h2>Short term development</h2>
+                    <p>
+                        Our work is of top quality and high speed. We realize that time is essential in everything.
+                    </p>
+                </article>
+                <article>
+                    <h2>Attentive to details</h2>
+                    <p>
+                        We think over all details – from the project itself as a whole to future improvements.
+                    </p>
+                </article>
+                <article>
+                    <h2>Safe and optimized</h2>
+                    <p>
+                        We love what we do. That is why all projects are secured and friendly for search engines.
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <Slider :slides="slides[1]" :nav-direction-type="'horizontal-nav'"></Slider>
+
+        <div class="offset-wrapper" style="padding-left: 3.34%">
+            <div class="info-block">
+                <address>
+                    info@alphamediainc.com <br><br>
+                    +1 (92938) 97-87-9<br><br>
+
+                    9495 Burlington Pl, <br>
+                    Boca Raton, 33434, FL
+                </address>
+                <div class="navigation">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Our services</li>
+                    </ul>
+                    <ul>
+                        <li>Web design</li>
+                        <li>Web development</li>
+                        <li>Promotion</li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <svg width="100%" viewBox="0 0 180 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M25.2518 2.0996C23.6106 0.882324 21.6023 0.241315 19.5475 0.278908C18.1989 0.264254 16.8617 0.524481 15.6202 1.04322C14.3774 1.58896 13.2819 2.4138 12.4216 3.45157C11.4404 4.62611 10.7146 5.98631 10.2891 7.44801L0 41.5533H12.4393L14.4616 33.9714H24.6263L26.6557 41.5533H39.095L28.7828 7.45151C28.2225 5.33969 26.984 3.46252 25.2518 2.0996ZM19.6524 11.8292L23.1016 24.6388H15.9934L19.4302 11.8292H19.6524ZM41.6895 0.744139H52.924V31.6453H66.5504V41.5533H51.7547C51.4206 41.5533 51.1102 41.5486 50.8235 41.5393C50.4183 41.5189 50.0144 41.478 49.6134 41.4169C49.1267 41.3498 48.6439 41.2581 48.1668 41.1423C47.6543 41.0099 47.1524 40.8404 46.6652 40.6351C46.1359 40.4212 45.6322 40.1502 45.1636 39.827C44.6734 39.477 44.2214 39.0778 43.8149 38.636C43.364 38.1572 42.9846 37.6178 42.6882 37.0339C42.3599 36.3585 42.117 35.646 41.965 34.9124C41.774 34.0264 41.6811 33.1228 41.6877 32.2172L41.6895 0.744139ZM69.7206 41.555H80.9622L80.9551 29.3121H91.0328C91.4545 29.3121 91.8692 29.2987 92.2767 29.2719C92.8421 29.2221 93.404 29.1397 93.9596 29.0253C94.6265 28.9007 95.2807 28.7175 95.9143 28.4778C96.5867 28.2073 97.2219 27.8547 97.8051 27.4284C98.4571 26.9692 99.0301 26.41 99.5022 25.7722C100.022 25.0246 100.412 24.1971 100.655 23.3236C100.973 22.2385 101.127 21.1137 101.114 19.9848V10.0767C101.266 7.5194 100.301 5.01988 98.4626 3.20671C96.4038 1.46327 93.7347 0.579701 91.0239 0.744139H79.7894C77.0825 0.576542 74.4166 1.45931 72.3631 3.20322C70.5306 5.01974 69.5698 7.51774 69.7206 10.0732V41.555ZM80.9622 10.6801V19.4111H89.8333V10.6871L80.9622 10.6801ZM117.088 0.744139H105.796L105.789 41.555H117.081V25.8141H126.536V41.555H137.778V0.744139H126.543V15.9079H117.088V0.744139ZM160.277 0.278908C162.33 0.242492 164.336 0.88344 165.976 2.0996C167.709 3.46217 168.948 5.3394 169.509 7.45151L179.826 41.5568H167.387L165.358 33.9749H155.181L153.151 41.5568H140.712L151.001 7.45151C151.427 5.98981 152.152 4.62961 153.133 3.45507C153.994 2.4173 155.089 1.59246 156.332 1.04671C157.577 0.525356 158.918 0.263907 160.27 0.278908H160.277ZM163.842 24.6388H156.723L160.171 11.8292H160.393L163.842 24.6388Z" fill="#384555"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0878 89.9179C18.0342 89.9547 16.0273 89.3138 14.387 88.0972C12.6545 86.735 11.4154 84.8585 10.8542 82.7471L0.536697 48.6418H12.976L15.0036 56.2237H25.1772L27.2066 48.6418L39.6459 48.6418L29.3568 82.7471C28.9313 84.2088 28.2055 85.569 27.2244 86.7435C26.364 87.7813 25.2685 88.6061 24.0257 89.1519C22.781 89.6726 21.4401 89.9335 20.0878 89.9179ZM158.489 74.8906L151.538 85.5927C151.192 86.153 150.807 86.6883 150.384 87.1948C149.954 87.6888 149.473 88.1383 148.95 88.5362C148.344 89.0014 147.655 89.3513 146.919 89.5681C146.071 89.813 145.189 89.9309 144.305 89.9179C143.4 89.9313 142.5 89.7832 141.648 89.4807C140.946 89.2371 140.292 88.8762 139.715 88.4138C139.19 87.9637 138.756 87.4202 138.436 86.8117C138.124 86.2561 137.864 85.6743 137.657 85.0732C137.472 84.4854 137.341 83.8825 137.264 83.2718C137.172 82.578 137.116 82.0761 137.097 81.7659C137.078 81.4557 137.069 81.1001 137.069 80.699V48.6418H148.339V73.1119H148.478L154.095 64.2708L154.735 63.2861C154.94 62.9864 155.164 62.6985 155.403 62.4238C155.649 62.116 155.934 61.8404 156.25 61.6036C156.55 61.4042 156.872 61.2388 157.21 61.1104C157.599 60.9553 158.015 60.8763 158.434 60.8777C158.849 60.8755 159.261 60.9545 159.645 61.1104C159.975 61.24 160.291 61.4004 160.59 61.5896C160.913 61.8244 161.199 62.1056 161.438 62.4238C161.753 62.8156 161.971 63.103 162.092 63.2861L162.745 64.2708L168.389 73.1119H168.501V48.6418H179.736V80.6938C179.736 81.0949 179.731 81.4505 179.722 81.7607C179.712 82.0708 179.661 82.5745 179.569 83.2718C179.494 83.8824 179.363 84.4853 179.18 85.0732C178.971 85.6759 178.706 86.258 178.387 86.8117C178.06 87.4162 177.627 87.9587 177.108 88.4138C176.537 88.8781 175.887 89.2393 175.188 89.4807C174.328 89.7845 173.419 89.9327 172.505 89.9179C171.894 89.9213 171.284 89.8663 170.684 89.7535C170.156 89.6559 169.642 89.495 169.154 89.2743C168.719 89.0768 168.303 88.8427 167.91 88.5747C167.53 88.3118 167.18 88.0092 166.866 87.6722C166.566 87.3542 166.283 87.0208 166.019 86.6736C165.782 86.3541 165.531 85.9938 165.267 85.5927L158.489 74.8906ZM103.206 89.4527V79.5167L118.605 79.5167V73.7136L103.198 73.7136V64.9546L118.605 64.9546V58.5498L103.198 58.5498V48.6418H119.807C120.122 48.6418 120.428 48.6465 120.724 48.6558C121.129 48.6753 121.533 48.7162 121.934 48.7782C122.416 48.8456 122.894 48.9366 123.366 49.0511C123.879 49.1835 124.381 49.353 124.868 49.5583C125.401 49.7741 125.909 50.0449 126.384 50.3663C126.878 50.7116 127.33 51.1112 127.732 51.5574C128.176 52.0389 128.55 52.5779 128.845 53.1595C129.174 53.8358 129.422 54.5478 129.582 55.281C129.783 56.1656 129.88 57.0698 129.874 57.9762V80.1236C130.025 82.6791 129.064 85.1771 127.231 86.9936C125.178 88.7371 122.513 89.6198 119.807 89.4527H103.206ZM73.7279 89.4527H96.2555L96.2537 48.6418L73.7279 48.6418C73.4128 48.6418 73.1071 48.6465 72.811 48.6558C72.4056 48.6753 72.0017 48.7162 71.6008 48.7782C71.0902 48.8505 70.608 48.9415 70.1543 49.0511C69.6366 49.1818 69.1298 49.3514 68.6384 49.5583C68.1091 49.7721 67.6055 50.0431 67.1368 50.3663C66.6494 50.7145 66.2019 51.1138 65.8023 51.5574C65.3574 52.0408 64.9786 52.5794 64.6756 53.1595C64.3381 53.8325 64.0903 54.5455 63.9382 55.281C63.7472 56.1669 63.6543 57.0706 63.6609 57.9762V80.1236C63.6377 81.4609 63.866 82.791 64.3344 84.0466C64.7585 85.1566 65.4259 86.1611 66.2892 86.9884C67.1886 87.8244 68.2671 88.4514 69.4452 88.8231C70.8284 89.2613 72.275 89.474 73.7279 89.4527ZM84.9642 79.5167V58.5516H74.8901V79.5167H84.9642ZM44.8083 89.4527H56.0996V48.6418H44.8083V89.4527ZM16.523 65.558L23.6419 65.558L20.2015 78.3746H19.9794L16.523 65.558Z" fill="#17C6A8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="get-in-touch-button-wrapper">
+                <div class="get-in-touch-button">
+                    <svg viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M31 61C47.5685 61 61 47.5685 61 31C61 14.4315 47.5685 1 31 1C14.4315 1 1 14.4315 1 31C1 47.5685 14.4315 61 31 61Z" stroke="#17C6A8" stroke-width="2"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M42.7822 30.4855L35.3592 23.2125C35.07 22.9292 34.5996 22.9292 34.3092 23.2125C34.02 23.497 34.02 23.9579 34.3092 24.2413L40.4723 30.2786H19.7428C19.3324 30.2786 19 30.6042 19 31.0063C19 31.4084 19.3324 31.7341 19.7428 31.7341H40.4579L34.3092 37.7584C34.02 38.0418 34.02 38.5027 34.3092 38.7872C34.4556 38.9283 34.6452 39 34.8348 39C35.0244 39 35.2152 38.9283 35.3592 38.7872L42.7822 31.5142C43.0726 31.2297 43.0726 30.77 42.7822 30.4855Z" fill="#384555"/>
+                    </svg>
+                </div>
+                <div class="text-wrapper">
+                    <div class="text">
+                        Get in touch
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script>
+import Slider from '../Slider'
+import Portfolio from '../Portfolio'
+
+export default {
+  name: 'About',
+  components: {Portfolio, Slider},
+  data () {
+    return {
+      slides: [
+        [
+          {
+            name: 'Our services',
+            text: 'Our team offers web products in a wide range of projects. They include community platforms, intranets, e-commerce, simple marketing websites, content-heavy websites, and apps. Regardless of the area you work in, we always have a product to offer you.'
+          },
+          {
+            name: 'Web design',
+            text: 'Our team offers web products in a wide range of projects. They include community platforms, intranets, e-commerce, simple marketing websites, content-heavy websites, and apps. Regardless of the area you work in, we always have a product to offer you.'
+          },
+          {
+            name: 'Web development',
+            text: 'Our team offers web products in a wide range of projects. They include community platforms, intranets, e-commerce, simple marketing websites, content-heavy websites, and apps. Regardless of the area you work in, we always have a product to offer you.'
+          },
+          {
+            name: 'Promotion',
+            text: 'Our team offers web products in a wide range of projects. They include community platforms, intranets, e-commerce, simple marketing websites, content-heavy websites, and apps. Regardless of the area you work in, we always have a product to offer you.'
+          }
+        ],
+        [
+          {
+            name: 'Expertise',
+            text: 'Our team has got many years’ experience of working at projects of any specialization and complexity. All projects we worked at have become a total success.'
+          },
+          {
+            name: 'Analytics',
+            text: 'Our team has got many years’ experience of working at projects of any specialization and complexity. All projects we worked at have become a total success.'
+          },
+          {
+            name: 'Strategy',
+            text: 'Our team has got many years’ experience of working at projects of any specialization and complexity. All projects we worked at have become a total success.'
+          }
+        ]
+      ]
+    }
+  }
+}
+</script>
+
+<style scoped>
+.articles {
+    display: flex;
+    margin-top: 3.7%;
+    width: 80.2%;
+    justify-content: space-between;
+}
+
+.offset-wrapper {
+    padding-top: 3.5%;
+    padding-left: 5.5%;
+}
+
+.offset-wrapper h1 {
+    color: #17C6A8;
+}
+
+.articles article {
+    width: 44.1%;
+}
+
+article {
+    line-height: 144%;
+}
+
+.advantages {
+    display: flex;
+    width: 87%;
+    justify-content: space-between;
+}
+
+.advantages  article {
+    width: 27%;
+}
+
+address {
+  font-style: normal;
+}
+
+.info-block {
+    display: flex;
+}
+
+.info-block .navigation {
+    margin-left: 4%;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.info-block .navigation ul {
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.info-block .navigation li {
+    font-weight: bold;
+    border-bottom: 1.2vw solid transparent;
+}
+
+.info-block .logo {
+    width: 9.375vw;
+    margin-left: auto;
+    position: relative;
+    right: 5.2%;
+}
+
+.get-in-touch-button-wrapper .text-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.get-in-touch-button-wrapper .text {
+    font-size: 1.26vw;
+    cursor: pointer;
+}
+
+.get-in-touch-button-wrapper {
+    margin-top: 3.1vw;
+    margin-bottom: 3.1vw;
+    display: flex;
+    align-items: center;
+    display: -webkit-box;
+}
+
+.get-in-touch-button {
+    width: 3.1vw;
+    display: inherit;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+.get-in-touch-button svg {
+    width: 100%;
+}
+</style>
