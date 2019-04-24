@@ -1,52 +1,20 @@
 <template lang="pug">
     nav
         ul.links
-            li(v-for='link in links', :key='link.id')
+            li(v-for='(link, value) in links', :key='value')
                 span
                 a(:href='link.anchor') {{link.name}}
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'LeftPart',
-  data () {
-    return {
-      links: [
-        {
-          id: 0,
-          name: 'Home',
-          anchor: '#home'
-        },
-        {
-          id: 1,
-          name: 'About',
-          anchor: ''
-        },
-        {
-          id: 2,
-          name: 'Our sevices',
-          anchor: ''
-        },
-        {
-          id: 3,
-          name: 'Web design',
-          anchor: ''
-
-        },
-        {
-          id: 4,
-          name: 'Web development',
-          anchor: ''
-
-        },
-        {
-          id: 5,
-          name: 'Promotion',
-          anchor: ''
-
-        }
-      ]
-    }
+  computed: {
+    ...mapGetters({
+      links: 'menu/getLinks'
+    })
   }
 }
 </script>
