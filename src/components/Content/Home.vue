@@ -131,7 +131,6 @@ section.fade {
     }
 }
 
-
 @media (min-aspect-ratio: 16/9) {
    video { height: 300%; top: -100%; }
 }
