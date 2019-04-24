@@ -1,3 +1,3 @@
 export const TOGGLE = (state) => {
-  state.bOpen = !(state.bOpen)
+  state.toggleStatus = !(state.toggleStatus)
 }

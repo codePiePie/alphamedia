@@ -1,3 +1,3 @@
 export default {
-  bOpen: false
+  toggleStatus: false
 }

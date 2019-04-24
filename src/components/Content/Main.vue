@@ -1,11 +1,9 @@
-<template>
-    <main>
-        <div>
-            <Home></Home>
-            <About></About>
-            <Footer></Footer>
-        </div>
-    </main>
+<template lang="pug">
+main
+    div
+        Home
+        About
+        Footer
 </template>
 
 <script>
@@ -19,15 +17,16 @@ export default {
 }
 </script>
 
-<style scoped>
-main {
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    font-family: 'AvenirNext';
-}
+<style lang="less" scoped>
+    @font_family_1: 'AvenirNext';
 
-main > div {
-    width: 93.75vw;
-}
+    main {
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        font-family: @font_family_1;
+        >div {
+            width: 93.75vw;
+        }
+    }
 </style>
